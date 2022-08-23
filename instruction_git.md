@@ -26,8 +26,11 @@
 
 ## Фиксация изменений
 
-Git status
-git add
+Фиксация изменений происходит благодаря команде:
+
+    git commit
+
+
 git commit
 git commit -m
 git commit -a
