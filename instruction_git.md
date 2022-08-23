@@ -19,7 +19,7 @@
 ## Добавление версионности
 
     Git add
-В данном разделе использую цитату, взятую с [сайта](https://git-scm.com/ "git-scm")
+В данном разделе использую цитату, взятую с [сайта](https://git-scm.com/ "git-scm.com")
 
 >Команда git add добавляет содержимое рабочего каталога в индекс (staging area) для последующего коммита.
 
@@ -30,11 +30,17 @@
 
     git commit
 
+ ### Параметры команды **git commit**
 
-git commit
-git commit -m
-git commit -a
-git commit -am "Message" - add + commit
+ git commit имеет несколько параметров исполнения, среди которых:
+
+ - ***git commit -m "description"*** - фиксация изменений с добавлением описания коммита.
+ - ***git commit -a "description"*** - фиксация изменений ВСЕХ файлов, которые находятся в текущем репозитории git. **Данная команда не добавляет новые или удаленные файлы!**
+ - ***git commit -am "description"*** - совмещает команды **git add** и **git commit**.
+
+
+
+
 git diff (commit #) (commit #)
 git log
 git log --oneline
