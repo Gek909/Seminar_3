@@ -12,7 +12,19 @@
 
 ## Добавление версионности
 
+    Git add
+
 ## Фиксация изменений
 
-
-Git commit -am "Message" - add + commit
+Git status
+git add
+git commit
+git commit -m
+git commit -a
+git commit -am "Message" - add + commit
+git diff (commit #) (commit #)
+git log
+git log --oneline
+git log --oneline -all
+git log -all
+git checkout
